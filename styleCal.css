@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap');
+
+/*------------header style-------------------------------*/
+body{
+    padding: 0px;
+    margin: 0px;
+}
+h1,h2,h3,h5,p,a{
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    padding: 0 4%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+}
+#logo{
+    height: 50px;
+    padding: 0 10px;
+}
+#sign-in{
+    display: flex;
+    padding: 14px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+#sign-in a{
+    font-size: 16px;
+    font-weight: 700;
+}
+#register{
+    background: #0075FF;
+    color: #FFF;
+    padding: 10px 18px;
+}
+#register:hover{
+    background: #024694;
+}
+#connect{
+    color: #181818;
+}
+#connect:hover{
+    color: #0075FF;
+}
+nav{
+    margin-left: 13vh;
+    display: flex;
+    padding: 8px 11px;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+    list-style: none;
+}
+nav a{
+    color: #181818;
+    font-size: 16px;
+    font-weight: 600;
+}
+nav a:hover{
+    color: #0075FF;
+}
+#here{
+    color: #0075FF;
+}
+/*------------header style-------------------------------*/
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #ff004c;
+}
+
+
+
+/*------------footer style-------------------------------*/
+
+footer{
+    background: #1A1A1A;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer p{
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 500;
+}
+.infoFooter{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 44vw;
+}
+.infoFooter p{
+    margin: 4px 0 4px 0;
+}
+.infoFooter a{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+.infoFooter h3{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+.infoFooter img{
+    margin-top: 5px;
+}
