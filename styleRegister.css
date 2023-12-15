@@ -157,7 +157,7 @@ input::placeholder
 
     width: 331px;
     height: 50px;
-    margin-top: 20px;
+    margin-top: 0;
 
     color: #FFF;
     font-family: Inter;
@@ -331,6 +331,11 @@ p
 #rect3
 {
     width: 70px;
+}
+
+.notmarge
+{
+    margin-top: 10px;
 }
 
 /*------------footer style-------------------------------*/
