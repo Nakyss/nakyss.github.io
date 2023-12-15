@@ -23,13 +23,19 @@
     </header>
 
     <main>
+        <div class="pricing">
+            <p id="Ppaye">Vous allez payez :</p>
+            <h3 id="priceTitle">25€</h3>
+            <p id="MINIP">Cette adhésion vous donne accès a 3 séances  par semaine pendant une année. Par défaut le renouvèlement de 10€ est automatique.</p>
+        </div>
+
         <div class="inscriB">
 
             <form action="" method="get" class="form-example">
                 <div >
                     <input class="champs" placeholder="Nom de la carte" type="text" name="carte" id="NomCarte" required />
                 </div>
-                <p>information de carte</p>
+                <p id="infoP">information de carte</p>
                 <div class="infocarte">
                     <input class="champs" placeholder="1234 1234 1234 1234" type="text" name="name" id="cartechamps" required />
                     <input class="champs" placeholder="MM / AA" type="text" name="name" id="champspetit" required pattern="\d{4}-\d{2}-\d{2}"  required />
@@ -45,10 +51,7 @@
               
 
             <div class="select">
-                <div class="ronds"></div>
-                <div class="ronds"></div>
-                <div class="rectangle"></div>
-                <div class="ronds"></div>
+                <div id="rect3" class="rectangle"></div>
             </div>
         </div>
     </main>
