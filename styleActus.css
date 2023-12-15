@@ -79,7 +79,7 @@ section.principal{
 }
 .topActu{
     display: flex;
-    gap: 65px;
+    gap: 75px;
 }
 .topActu div{
     width: 426px;
@@ -103,7 +103,7 @@ section.principal{
 }
 .bottomActu{
     display: flex;
-    gap: 65px;
+    gap: 75px;
 }
 .bottomActu div div{
     display: flex;
